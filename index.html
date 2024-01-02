@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="nb">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <link rel="stylesheet" href="popout-style.css">
+        <!-- Fontawesome CDN Link -->
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+         <script src="script.js" defer></script>
+    
+        <title>Popout Window</title>
 
-    <link rel="stylesheet" href="popout-style.css">
-    <script src="script.js" defer></script>
+    </head>
 
-    <title>Popout Window</title>
-</head>
 <body>
     <main>
         <a href="#" id="popoutWindow">Review</a>
@@ -22,15 +26,16 @@
         <main>
             <section>
                 <div class="rating_box">
-                    <header>How was your experience?</header>
+                    <h3>How was your experience?</h3>
                     <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
                     </div>
-                </div>
+                  </div>
+                
             </section>
     
             <section class="kommentar_felt">
@@ -55,6 +60,7 @@
                    <input type="submit" class="submit_button" value="Send">  
                </div>
            </section>
+        </main>   
     </div>
 </body>
 </html>
